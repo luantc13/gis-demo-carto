@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Thêm Legend</title>
+
+  <!-- Include CARTO VL JS from the CARTO CDN-->
+  <script src="https://libs.cartocdn.com/carto-vl/v1.2.4/carto-vl.min.js"></script>
+
+  <!-- Include Mapbox GL from the Mapbox CDN-->
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js"></script>
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css" rel="stylesheet" />
+
+  <!-- Airship -->
+  <link rel="stylesheet" href="https://libs.cartocdn.com/airship-style/v1.0.3/airship.css">
+  <link rel="stylesheet" href="https://libs.cartocdn.com/airship-icons/v1.0.3/icons.css">
+  <script src="https://libs.cartocdn.com/airship-components/v1.0.3/airship.js"></script>
+
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="https://carto.com/developers/carto-vl/v1.2.5/examples/maps/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="map">
+    <aside class="toolbox">
+      <div class="box">
+        <header>
+          <h1>Legend</h1>
+        </header>
+        <section>
+          <div id="controls">
+            <ul id="content"></ul>
+          </div>
+        </section>
+      </div>
+    </aside>
+  </div>
+
+  <script src="js/them_legend.js"></script>
+</body>
+
+</html>
